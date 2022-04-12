@@ -28,5 +28,3 @@ Disable-NetFirewallRule $HS_firewall_rule
 write-host "$HS_firewall_rule_name disabled" -ForegroundColor Red
 
 Start-sleep -s 2
-
-get-netfirewallrule -DisplayName
