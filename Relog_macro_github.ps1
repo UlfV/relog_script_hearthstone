@@ -1,6 +1,7 @@
 
 # Relog Macro for Hearthstone Battlegrounds - Firewall Rule was created prior to the script's execution
-# $HS_firewall_rule need to be set - to get the name execute: get-netfirewallrule -displayname yourfirewallrule
+# $HS_firewall_rule need to be set - to get the name execute: 
+# get-netfirewallrule -displayname yourfirewallrule
 
 $HS_firewall_rule = ''
 $HS_firewall_rule_name = ((Get-NetFirewallRule $HS_firewall_rule | select-object -property DisplayName) -split '[={}]')[2]
