@@ -1,5 +1,5 @@
-# relog_script_hearthstone
-Relog script for Hearthstone Battlegrounds
+# Relog script for Hearthstone Battlegrounds
+
 
 
 This is a short relog powershell script for Hearthstone Battlegrounds.
